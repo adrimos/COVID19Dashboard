@@ -13,10 +13,12 @@ iframe  {float:left; height:90%; width:100%;}
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin:0 auto;
   padding: 0;
   overflow: hidden;
-  background-color: #f5e6ff;
+  text-align:center;
+  width:450px;
+  margin-top: 8px;
 }
 
 li {
@@ -31,10 +33,14 @@ li a {
   text-decoration: none;
   font-family:arial;
   font-size: 16px;
+  font-weight: bold;
+  background-color: #ebccff;
+  margin-right: 4px;
+  display:inline-block;
 }
 
 li a:hover {
-  background-color: #ebccff;
+  background-color: #e0b3ff;
 }
 
 p {
@@ -49,12 +55,16 @@ p {
 
 <body>
 
+
 <ul>
   <li><a class="active" href="https://adrimos.github.io/COVID19_Daily_US_BarChart/Index.html" target="iframe_a">Bar chart US</a></li>
   <li><a class="active" href="https://adrimos.github.io/COVID19_Daily_US_States_BarChart/Index.html" target="iframe_a">Bar chart 12 US states</a></li>
   <li><a class="active" href="https://adrimos.github.io/COVID19HeatMapUS/Index.html" target="iframe_a">Heatmap</a></li>
 </ul>
-<p>Data: John Hopkins University</p>
+
+<p align="center">COVID19 pandemic in the US, 2020<br>
+Data: John Hopkins University</p>
+
 
 <iframe height="1000px" width="100%" src="https://adrimos.github.io/COVID19_Daily_US_BarChart/Index.html" name="iframe_a" frameborder="0" height="100%" width="100%"></iframe>
 
